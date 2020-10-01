@@ -1,3 +1,6 @@
 C:\Users\gsubi\workspaces\source\repos\JavaScript\JavaScript Examples\goransubic\obj\Debug\GoranSubic.njsprojAssemblyReference.cache
 C:\Users\gsubi\workspaces\source\repos\JavaScript\JavaScript Examples\goransubic\obj\Debug\GoranSubic.njsproj.CoreCompileInputs.cache
 C:\Users\gsubi\workspaces\source\repos\JavaScript\JavaScript Examples\goransubic\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\gsubi\workspaces\source\repos\JavaScript\goransubic\obj\Debug\GoranSubic.njsprojAssemblyReference.cache
+C:\Users\gsubi\workspaces\source\repos\JavaScript\goransubic\obj\Debug\GoranSubic.njsproj.CoreCompileInputs.cache
+C:\Users\gsubi\workspaces\source\repos\JavaScript\goransubic\bin\Microsoft.NodejsTools.WebRole.dll
