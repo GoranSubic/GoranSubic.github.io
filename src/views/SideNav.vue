@@ -20,9 +20,10 @@ export default {
         position: fixed;
         display: block;
         width: 100%;
-        max-width: 250px;
+        max-width: 230px;
         margin: 0 auto;
         left: 5px;
         border-radius: 25%;
+        border: 10px solid rgb(65, 184, 131);
     }
 </style>

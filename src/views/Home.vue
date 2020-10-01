@@ -34,9 +34,8 @@ export default {
 
 <style>
     a>img {
-        opacity: 0.5;
+        opacity: 0.75;
     }
-
 
     h1 {
         box-sizing: border-box;
@@ -58,62 +57,8 @@ export default {
 
         h1 > .text-primary {
             color: rgb(65, 184, 131);
-            opacity: 0.5;
+            opacity: 0.75;
         }
-
-    .resume-section-content {
-        box-sizing: border-box;
-        color: rgb(108, 117, 125);
-        display: block;
-        font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        font-size: 16px;
-        font-weight: 400;
-        height: 311px;
-        line-height: 24px;
-        text-align: left;
-        text-size-adjust: 100%;
-        width: 981px;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
-
-    .subheading {
-        box-sizing: border-box;
-        color: rgb(108, 117, 125);
-        display: inline;
-        font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        font-size: 24px;
-        font-weight: 500;
-        height: auto;
-        line-height: 36px;
-        margin-bottom: 48px;
-        text-align: left;
-        text-size-adjust: 100%;
-        text-transform: uppercase;
-        width: auto;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
-    }
-
-    .mail > a {
-        background-color: rgba(0, 0, 0, 0);
-        box-sizing: border-box;
-        color: rgb(65, 184, 131);
-        opacity: 0.5;
-        cursor: pointer;
-        display: inline;
-        font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        font-size: 24px;
-        font-weight: 500;
-        height: auto;
-        line-height: 36px;
-        text-align: left;
-        text-decoration-color: rgb(23, 162, 184);
-        text-decoration-line: none;
-        text-decoration-style: solid;
-        text-size-adjust: 100%;
-        text-transform: none;
-        width: auto;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
 
         .centered {
             display: block;

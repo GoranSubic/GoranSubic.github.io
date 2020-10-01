@@ -18,7 +18,8 @@
             return {
                 menu_array: [
                     { lst: 'Home' },
-                    { lst: 'About' },
+                    { lst: 'Education' },
+                    { lst: 'Experience' },
                     { lst: 'Contact' }
                 ]
             }
@@ -42,7 +43,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        opacity: 0.5;
+        opacity: 0.75;
         width: 100%;
         height: 0;
         overflow: visible;
