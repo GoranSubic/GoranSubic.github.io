@@ -1,6 +1,6 @@
 import Vue from 'vue/dist/vue.js'
 import App from './App.vue'
-import MyImage from './views/MyImage.vue'
+import SideNav from './views/SideNav.vue'
 import Menu from './views/Menu.vue'
 
 Vue.config.productionTip = false
@@ -15,8 +15,8 @@ Vue.component('items-list', {
 });
 
 new Vue({
-    render: h => h(MyImage),
-}).$mount('#my-img');
+    render: h => h(SideNav),
+}).$mount('#mysidenav');
 
 new Vue({
     render: h => h(Menu),

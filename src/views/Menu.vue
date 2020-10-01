@@ -38,7 +38,7 @@
 
     .menu {
         text-align: center;
-        color: green;
+        color: rgb(65, 184, 131);
         position: fixed;
         top: 0;
         left: 0;
