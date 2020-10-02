@@ -26,27 +26,27 @@
                         </span>
                     </a>
 
+                    <a href="pdf/Goran_Subic_CV_eng.pdf" target="_blank">
+                        <span style="font-size: 3em;color: #d00d0d;">
+                            <i class="fas fa-file-pdf"></i>
+                        </span>
+                    </a>
+
+                    <a href="pdf/Goran_Subic_CV_srb.pdf" target="_blank">
+                        <span style="font-size: 3em;color: #d00d0d;">
+                            <i class="fas fa-file-pdf"></i>
+                        </span>
+                    </a>
+
+                    <a href="pdf/LetterOfRec_Smart_PHP.pdf" target="_blank">
+                        <span style="font-size: 3em;color: #d00d0d;">
+                            <i class="fas fa-file-pdf"></i>
+                        </span>
+                    </a>
+
                     <a href="https://goransubic.github.io/MemoryGame-Vue.js/" target="_blank">
                         <span style="font-size: 3em;color: rgb(65, 184, 131);">
                             <i class="fab fa-vuejs"></i>
-                        </span>
-                    </a>
-
-                    <a href="../assets/Goran_Subic_CV_eng.pdf" target="_blank">
-                        <span style="font-size: 3em;color: #d00d0d;">
-                            <i class="fas fa-file-pdf"></i>
-                        </span>
-                    </a>
-
-                    <a href="../assets/Goran_Subic_CV_srb.pdf" target="_blank">
-                        <span style="font-size: 3em;color: #d00d0d;">
-                            <i class="fas fa-file-pdf"></i>
-                        </span>
-                    </a>
-
-                    <a href="../assets/LetterOfRec_Smart_PHP.pdf" target="_blank">
-                        <span style="font-size: 3em;color: #d00d0d;">
-                            <i class="fas fa-file-pdf"></i>
                         </span>
                     </a>
                 </div>
@@ -91,13 +91,6 @@ export default {
         h1 > .text-primary {
             color: rgb(65, 184, 131);
             opacity: 0.75;
-        }
-
-        .centered {
-            display: block;
-            width: 100%;
-            max-width: 450px;
-            margin: 0 auto;
         }
 
     .social-icons > a {

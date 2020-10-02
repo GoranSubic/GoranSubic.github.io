@@ -45,7 +45,7 @@ export default {
     #app {
         padding-left: 17rem;
         /*padding: 20px;*/
-        /*width: 100%;*/
+        width: 100%;
         font-family: Avenir, Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;

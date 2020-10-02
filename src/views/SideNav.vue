@@ -1,7 +1,7 @@
 ﻿<template>
     <aside id="mysidenav">
         <div id="my-img">
-            <img class="my-img" alt="My image" src="../assets/goran.png">
+            <img class="my-img" alt="My image" src="../assets/GoranSubic.png">
         </div>
     </aside>
 </template>
