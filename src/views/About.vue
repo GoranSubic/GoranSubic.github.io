@@ -14,40 +14,46 @@
 
                 <p>Welcome to my personal site. Here You can find some of the things that I have been working on.</p>
                 <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/goran-subic" target="_blank">
+                    <a class="tooltip" href="https://www.linkedin.com/in/goran-subic" target="_blank">
                         <span style="font-size: 3em; color: royalblue;">
                             <i class="fab fa-linkedin"></i>
                         </span>
+                        <span class="tooltiptext">LinkedIn Profile</span>
                     </a>
 
-                    <a href="https://github.com/goransubic" target="_blank">
+                    <a class="tooltip" href="https://github.com/goransubic" target="_blank">
                         <span style="font-size: 3em; color: grey;">
                             <i class="fab fa-github"></i>
                         </span>
+                        <span class="tooltiptext">GitHub</span>
                     </a>
 
-                    <a href="pdf/Goran_Subic_CV_eng.pdf" target="_blank">
+                    <a class="tooltip" href="pdf/Goran_Subic_CV_eng.pdf" target="_blank">
                         <span style="font-size: 3em;color: #d00d0d;">
                             <i class="fas fa-file-pdf"></i>
                         </span>
+                        <span class="tooltiptext">CV - eng</span>
                     </a>
 
-                    <a href="pdf/Goran_Subic_CV_srb.pdf" target="_blank">
+                    <a class="tooltip" href="pdf/Goran_Subic_CV_srb.pdf" target="_blank">
                         <span style="font-size: 3em;color: #d00d0d;">
                             <i class="fas fa-file-pdf"></i>
                         </span>
+                        <span class="tooltiptext">CV - srb</span>
                     </a>
 
-                    <a href="pdf/LetterOfRec_Smart_PHP.pdf" target="_blank">
+                    <a class="tooltip" href="pdf/LetterOfRec_Smart_PHP.pdf" target="_blank">
                         <span style="font-size: 3em;color: #d00d0d;">
                             <i class="fas fa-file-pdf"></i>
                         </span>
+                        <span class="tooltiptext">Smart DOO - Letter of Recommendation</span>
                     </a>
 
-                    <a href="https://goransubic.github.io/MemoryGame-Vue.js/" target="_blank">
+                    <a class="tooltip" href="https://goransubic.github.io/MemoryGame-Vue.js/" target="_blank">
                         <span style="font-size: 3em;color: rgb(65, 184, 131);">
                             <i class="fab fa-vuejs"></i>
                         </span>
+                        <span class="tooltiptext">Vue.js example - MemoryGame</span>
                     </a>
                 </div>
             </div>
@@ -96,4 +102,30 @@ export default {
     .social-icons > a {
         margin: 5px;
     }
+
+    /* Tooltip container */
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        /*border-bottom: 1px dotted black;*/ /* If you want dots under the hoverable text */
+    }
+
+        /* Tooltip text */
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+            /* Position the tooltip text - see examples below! */
+            position: absolute;
+            z-index: 1;
+        }
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
 </style>
