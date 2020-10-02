@@ -80,7 +80,12 @@ export default {
 
     /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
     @media (max-width: 600px) {
-        #mysidenav, #main {
+        #mysidenav {
+            position: absolute;
+            display: none;
+        }
+
+        #main {
             width: 100%;
             height: auto;
         }
