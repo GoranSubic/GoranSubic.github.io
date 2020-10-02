@@ -1,9 +1,9 @@
 ﻿<template>
-    <div id="mysidenav">
+    <aside id="mysidenav">
         <div id="my-img">
             <img class="my-img" alt="My image" src="../assets/goran.png">
         </div>
-    </div>
+    </aside>
 </template>
 
 <script>
@@ -17,13 +17,11 @@ export default {
 
 <style>
     .my-img {
-        position: fixed;
+        max-width: 12rem;
+        max-height: 12rem;
+        border: 0.5rem solid rgb(65, 184, 131);
         display: block;
-        width: 100%;
-        max-width: 230px;
         margin: 0 auto;
-        left: 5px;
         border-radius: 25%;
-        border: 10px solid rgb(65, 184, 131);
     }
 </style>

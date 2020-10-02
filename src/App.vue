@@ -1,29 +1,38 @@
 <template>
     <div id="app">
-        <div id="mysidenav">
-            <SideNav msgSideNav="Side Nav with image" />
-        </div>
+        <nav id="menu-wrapper">
+            <mymenu msgMenu="Menu list from defined array" />
+        </nav>
+
+        <aside id="mysidenav">
+            <SideNav />
+        </aside>
 
         <div id="main">
-            <img alt="Vue logo" src="./assets/logo.png">
-            <Home msgHome="Welcome to my Vue.js Portfolio App" />
+            <!--<img alt="Vue logo" src="./assets/logo.png">-->
+            <About msgAbout="Welcome to my Vue.js Portfolio App" />
             <Education msgEducation="About my Education" />
+            <Experience msgEducation="About my Experience" />
         </div>
     </div>
 </template>
 
 <script>
     //import HelloWorld from './components/HelloWorld.vue'
-    import Home from './views/Home.vue'
+    import mymenu from './views/Menu.vue'
     import SideNav from './views/SideNav.vue'
+    import About from './views/About.vue'
     import Education from './views/Education.vue'
+    import Experience from './views/Experience.vue'
 
 export default {
   name: 'App',
   components: {
-      Home,
+      mymenu,
       SideNav,
-      Education
+      About,
+      Education,
+      Experience
   }
 }
 </script>
@@ -34,7 +43,8 @@ export default {
     }
 
     #app {
-        padding: 20px;
+        padding-left: 17rem;
+        /*padding: 20px;*/
         /*width: 100%;*/
         font-family: Avenir, Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -49,7 +59,7 @@ export default {
         float: left;
         padding: 20px;
         width: 70%;
-        margin-left: 200px;
+        /*margin-left: 200px;*/
     }
 
     /* The side navigation menu */
@@ -57,9 +67,7 @@ export default {
         display: block;
         float: left;
         width: 30%;
-        height: 100%; /* 100% Full-height */
-        /*width: 0;*/ /* 0 width - change this with JavaScript */
-        width: 100%;
+        height: 100vh; /* 100% Full-height */
         max-width: 260px;
         position: fixed; /* Stay in place */
         top: 0; /* Stay at the top */
@@ -67,7 +75,7 @@ export default {
         background-color: rgb(170, 210, 190);
         overflow-x: hidden; /* Disable horizontal scroll */
         overflow-y: hidden; /* Disable vertical scroll */
-        padding-top: 100px; /* Place content 60px from the top */
+        padding: 100px 10px 100px 10px;
     }
 
     /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
@@ -92,13 +100,39 @@ export default {
         text-align: left;
         text-size-adjust: 100%;
         text-transform: uppercase;
-        width: 981px;
+        /*width: 981px;*/
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
     }
 
-    .resume-section {
-        min-height: 550px;
+    section.resume-section {
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        max-width: 75rem;
+        min-height: 70vh;
     }
+
+    /*.resume-section {
+        min-height: 550px;
+    }*/
+
+    @media (min-width: 992px) {
+        section.resume-section {
+            padding-left: 3rem;
+            padding-right: 3rem;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+    }
+
+    /*@media (min-width: 768px) {
+        section.resume-section {
+            min-height: 100vh;
+        }
+    }*/
 
     .resume-section-content {
         box-sizing: border-box;
@@ -107,11 +141,11 @@ export default {
         font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         font-size: 16px;
         font-weight: 400;
-        height: 311px;
+        /*height: 311px;*/
         line-height: 24px;
         text-align: left;
         text-size-adjust: 100%;
-        width: 981px;
+        /*width: 981px;*/
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 

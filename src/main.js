@@ -1,7 +1,6 @@
 import Vue from 'vue/dist/vue.js'
 import App from './App.vue'
-import SideNav from './views/SideNav.vue'
-import Menu from './views/Menu.vue'
+import mymenu from './views/Menu.vue'
 
 Vue.config.productionTip = false
 
@@ -9,15 +8,14 @@ new Vue({
     render: h => h(App),
 }).$mount('#app');
 
-Vue.component('items-list', {
-    props: ['items'],
-    template: '<li> {{ items.lst }} </li>'
+//Vue.component('my-menu', mymenu);
+
+Vue.component('my-menu', {
+    name: 'mymenu',
+    props: ['menu_array'],
+    template: '<li> <a v-bind:href="\'#\' + menu_array.lst + \'-data\'"> {{ menu_array.lst }} </a> </li>'
 });
 
 new Vue({
-    render: h => h(SideNav),
-}).$mount('#mysidenav');
-
-new Vue({
-    render: h => h(Menu),
+    render: h => h(mymenu),
 }).$mount('#menu-wrapper');

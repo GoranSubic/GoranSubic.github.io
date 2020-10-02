@@ -1,53 +1,51 @@
 ﻿<template>
-    <div id="menu-wrapper">
+    <nav id="menu-wrapper">
         <div class="menu">
             <ul id="app-menu">
-                <items-list v-for="item in menu_array"
-                            v-bind:items="item"
-                            v-bind:key="item.lst">
-                </items-list>
+                <my-menu v-for="item in menu_array"
+                        v-bind:menu_array="item"
+                        v-bind:key="item.lst">
+                </my-menu>
             </ul>
         </div>
-    </div>
+    </nav>
 </template>
 
 <script>
     export default {
-        name: 'Menu',
+        name: 'mymenu',
         data() {
             return {
                 menu_array: [
-                    { lst: 'Home' },
-                    { lst: 'Education' },
-                    { lst: 'Experience' },
-                    { lst: 'Contact' }
+                    { lst: 'about' },
+                    { lst: 'education' },
+                    { lst: 'experience' }
                 ]
             }
+        },
+        props: {
+            msgMenu: String
         }
-};
+    };
 </script>
 
 <style>
-    .menu-wrapper {
+    #menu-wrapper {
+        width: 100vh;
+        height: auto;
+        top: 0;
         position: fixed;
-        top: 215px;
-        left: 15px;
-        width: 50px;
-        height: 50px;
         box-sizing: border-box;
     }
 
     .menu {
         text-align: center;
-        color: rgb(65, 184, 131);
         position: fixed;
+        background-color: rgb(214, 212, 217);
         top: 0;
-        left: 0;
         opacity: 0.75;
-        width: 100%;
-        height: 0;
+        width: 100vh;
         overflow: visible;
-        /*background: rgba(25, 25, 25, 0.85);*/
         z-index: 1;
         transition: all 0.3s ease;
         display: flex;
@@ -55,22 +53,28 @@
         align-content: center;
     }
 
-    .menu ul li {
-        display: inline-block;
-        width: 100px;
-        padding: 5px;
-        margin: 5px;
-        color: var(--light);
-        font-size: 20px;
-        list-style-type: none;
-        text-align: center;
-        margin: 0;
-        cursor: pointer;
-        box-sizing: border-box;
-        border-bottom: 2px solid transparent;
-    }
+        .menu ul li {
+            text-transform: uppercase;
+            display: inline-block;
+            width: auto;
+            padding: 5px;
+            margin: 5px;
+            color: var(--light);
+            font-size: 20px;
+            list-style-type: none;
+            text-align: center;
+            margin: 0;
+            cursor: pointer;
+            box-sizing: border-box;
+            border-bottom: 2px solid transparent;
+        }
 
-    .menu ul li:hover {
+            .menu ul li a {
+                color: rgb(65, 184, 131);
+                text-decoration: none;
+            }
+        
+        /*.menu ul li:hover {
         color: var(--primary);
         border-bottom: 2px solid var(--primary);
     }
@@ -79,6 +83,6 @@
         opacity: 1;
         width: 100vw;
         height: 100vh;
-    }
+    }*/
 
 </style>
