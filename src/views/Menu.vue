@@ -59,7 +59,7 @@
     .menu {
         text-align: center;
         position: fixed;
-        background-color: rgb(214, 212, 217);
+        background-color: rgb(255, 255, 255);
         top: 0;
         opacity: 0.75;
         width: 100vh;

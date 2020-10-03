@@ -55,7 +55,7 @@
         font-weight: 400;
         line-height: 1.5;
         text-align: left;
-        background-color: rgb(214, 212, 217);
+        /*background-color: rgb(214, 212, 217);*/
     }
 
     #app {
