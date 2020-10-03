@@ -16,16 +16,34 @@
         name: 'mymenu',
         data() {
             return {
+                isHidden: false,
                 menu_array: [
-                    { lst: 'about' },
-                    { lst: 'education' },
-                    { lst: 'experience' }
+                    { lst: "about" },
+                    { lst: "education" },
+                    { lst: "experience" }
                 ]
             }
         },
+        methods: {
+            showSection: function (liElement) {
+                var data = liElement.firstChild.innerHTML + "-data";
+                var x = document.getElementById(data);
+                var main = x.parentNode;
+                var node = main.firstChild;
+                while (node) {
+                    if (node !== x && node.nodeType === Node.ELEMENT_NODE)
+                        node.style.display = "none";
+                    node = node.nextElementSibling || node.nextSibling;
+                }
+                x.style.display = "block";
+            },
+        },
         props: {
             msgMenu: String
-        }
+        },
+        created() {
+            window.showSection = this.showSection;
+        },
     };
 </script>
 

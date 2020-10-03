@@ -1,6 +1,6 @@
 ﻿<template>
     <!-- About-->
-    <div id="about-data">
+    <div id="about-data" style="display: block;">
         <section class="resume-section" id="about">
             <div class="resume-section-content">
                 <h1 class="mb-0">
@@ -12,7 +12,8 @@
                 </div>
 
 
-                <p>Welcome to my personal site. Here You can find some of the things that I have been working on.</p>
+                <p>Welcome to my personal site. </p>
+                <p>Here You can find some of the things that I have been working on.</p>
                 <div class="social-icons">
                     <a class="tooltip" href="https://www.linkedin.com/in/goran-subic" target="_blank">
                         <span style="font-size: 3em; color: royalblue;">
@@ -57,8 +58,8 @@
                     </a>
                 </div>
             </div>
+            <hr class="m-0">
         </section>
-        <hr class="m-0">
     </div>
 </template>
 

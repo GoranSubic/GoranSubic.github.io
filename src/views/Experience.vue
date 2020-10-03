@@ -1,18 +1,18 @@
 ﻿<template>
-    <div id="experience-data">
-        <section class="resume-section" id="home">
+    <div id="experience-data" style="display: none;">
+        <section class="resume-section" id="experience">
             <div class="resume-section-content">
                 <h2>My <span class="mail">Experience</span></h2>
-                <div class="subheading">
+                <!--<div class="subheading">
                     <span>Formal education</span>
-                </div>
+                </div>-->
                 <p class="">
                     <!--Last employment
-                    <ul>
-                        <li>
-                            Faculty of Law, Novi Sad (Feb 2018 – Feb 2020)
-                        </li>
-                    </ul>-->
+            <ul>
+                <li>
+                    Faculty of Law, Novi Sad (Feb 2018 – Feb 2020)
+                </li>
+            </ul>-->
                     Faculty of Law, Novi Sad (Feb 2018 – Feb 2020)
                 </p>
                 <p class="">
@@ -32,8 +32,8 @@
                 </p>
 
             </div>
+            <hr class="m-0">
         </section>
-        <hr class="m-0">
     </div>
 </template>
 

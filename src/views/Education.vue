@@ -1,6 +1,6 @@
 ﻿<template>
-    <div id="education-data">
-        <section class="resume-section" id="home">
+    <div id="education-data" style="display: none;">
+        <section class="resume-section" id="education">
             <div class="resume-section-content">
                 <h2>My <span class="mail">Education</span></h2>
                 <div class="subheading">
@@ -47,8 +47,8 @@
                     </ul>
                 </p>
             </div>
+            <hr class="m-0">
         </section>
-        <hr class="m-0">
     </div>
 </template>
 

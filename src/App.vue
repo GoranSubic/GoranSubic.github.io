@@ -80,9 +80,21 @@ export default {
 
     /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
     @media (max-width: 600px) {
+        .menu {
+            text-align: center;
+            position: fixed;
+            top: 0;
+            z-index: 1;
+        }
+
+        #app {
+            padding-left: 1rem;
+        }
+        
         #mysidenav {
             position: absolute;
             display: none;
+            width: 0;
         }
 
         #main {
