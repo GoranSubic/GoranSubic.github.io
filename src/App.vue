@@ -25,20 +25,36 @@
     import Education from './views/Education.vue'
     import Experience from './views/Experience.vue'
 
-export default {
-  name: 'App',
-  components: {
-      mymenu,
-      SideNav,
-      About,
-      Education,
-      Experience
-  }
-}
+    export default {
+        name: 'App',
+        components: {
+            mymenu,
+            SideNav,
+            About,
+            Education,
+            Experience
+        }
+    }
 </script>
 
 <style>
     body {
+        padding: 0 !important;
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+        margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+
+        font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
         background-color: rgb(214, 212, 217);
     }
 
@@ -51,7 +67,7 @@ export default {
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: #2c3e50;
-        margin: 60px;
+        /*margin: 60px;*/
     }
 
     #main {
@@ -80,6 +96,10 @@ export default {
 
     /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
     @media (max-width: 600px) {
+        h1 {
+            margin-bottom: 6rem !important;
+        }
+
         .menu {
             text-align: center;
             position: fixed;
@@ -90,7 +110,7 @@ export default {
         #app {
             padding-left: 1rem;
         }
-        
+
         #mysidenav {
             position: absolute;
             display: none;
@@ -104,6 +124,7 @@ export default {
     }
 
     h2 {
+        margin-bottom: 6rem !important;
         box-sizing: border-box;
         color: rgb(52, 58, 64);
         display: block;
@@ -122,6 +143,7 @@ export default {
     }
 
     section.resume-section {
+        box-sizing: border-box;
         display: flex;
         align-items: center;
         padding-left: 1rem;
@@ -130,6 +152,8 @@ export default {
         padding-bottom: 5rem;
         max-width: 75rem;
         min-height: 70vh;
+        /*min-height: 75rem;*/
+        width: 100%;
     }
 
     /*.resume-section {
@@ -162,11 +186,12 @@ export default {
         line-height: 24px;
         text-align: left;
         text-size-adjust: 100%;
-        /*width: 981px;*/
+        width: 100%;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
     .subheading {
+        margin-bottom: 3rem !important;
         margin-top: 20px;
         box-sizing: border-box;
         color: rgb(108, 117, 125);
@@ -184,7 +209,7 @@ export default {
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
     }
 
-    span.mail, span.mail>a {
+    span.mail, span.mail > a {
         background-color: rgba(0, 0, 0, 0);
         box-sizing: border-box;
         color: rgb(65, 184, 131);
@@ -201,5 +226,4 @@ export default {
         width: auto;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
-
 </style>

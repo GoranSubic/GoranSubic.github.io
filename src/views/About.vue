@@ -82,20 +82,20 @@ export default {
         color: rgb(52, 58, 64);
         display: block;
         font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        font-size: 96px;
+        font-size: 6rem;
         font-weight: 700;
-        height: 96px;
-        line-height: 96px;
-        margin-bottom: 0px;
-        margin-top: 0px;
+        height: 6rem;
+        line-height: 1;
+        /*margin-top: 0px;*/
         text-align: left;
         text-size-adjust: 100%;
-        text-transform: uppercase;
-        width: 981px;
+        /*text-transform: uppercase;*/
+        width: auto;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
     }
 
         h1 > .text-primary {
+            box-sizing: border-box;
             color: rgb(65, 184, 131);
             opacity: 0.75;
         }
