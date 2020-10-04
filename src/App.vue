@@ -5,7 +5,7 @@
         </nav>
 
         <aside id="mysidenav">
-            <SideNav />
+            <SideNav msgSideNav="Side Navigation with image" />
         </aside>
 
         <div id="main">
@@ -109,6 +109,7 @@
 
         #app {
             padding-left: 1rem;
+            padding-right: 1rem;
         }
 
         #mysidenav {
@@ -118,13 +119,15 @@
         }
 
         #main {
-            width: 100%;
+            width: 70%;
             height: auto;
         }
     }
 
     h2 {
+        /*margin-bottom: 48px;*/
         margin-bottom: 6rem !important;
+        margin-top: 2rem;
         box-sizing: border-box;
         color: rgb(52, 58, 64);
         display: block;
@@ -133,12 +136,9 @@
         font-weight: 700;
         height: 67px;
         line-height: 67.2px;
-        margin-bottom: 48px;
-        margin-top: 0px;
         text-align: left;
         text-size-adjust: 100%;
         text-transform: uppercase;
-        /*width: 981px;*/
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
     }
 

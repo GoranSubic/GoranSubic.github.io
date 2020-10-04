@@ -49,7 +49,7 @@
 
 <style>
     #menu-wrapper {
-        width: 100vh;
+        width: 70%;
         height: auto;
         top: 0;
         position: fixed;
@@ -62,7 +62,7 @@
         background-color: rgb(255, 255, 255);
         top: 0;
         opacity: 0.75;
-        width: 100vh;
+        width: 70%;
         overflow: visible;
         z-index: 1;
         transition: all 0.3s ease;
@@ -81,7 +81,6 @@
             font-size: 20px;
             list-style-type: none;
             text-align: center;
-            margin: 0;
             cursor: pointer;
             box-sizing: border-box;
             border-bottom: 2px solid transparent;
