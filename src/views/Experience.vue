@@ -6,7 +6,7 @@
                 <!--<div class="subheading">
         <span>Formal education</span>
     </div>-->
-                <div class="job" onclick="showJob(this)">
+                <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
                         Faculty of Law, Novi Sad (Feb 2018 – Feb 2020) <span class="job-desc-link">>></span>
                     </p>
@@ -25,7 +25,7 @@
                         </pre>
                     </p>
                 </div>
-                <div class="job" onclick="showJob(this)">
+                <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
                         „CloudTech“ - PHP Developer (Dec 2015 – Feb 2018) <span class="job-desc-link">>></span>
                     </p>
@@ -40,7 +40,7 @@
                         </pre>
                     </p>
                 </div>
-                <div class="job" onclick="showJob(this)">
+                <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
                         „BB Trade“ AD (Jun 2011 – Maj 2015) <span class="job-desc-link">>></span>
                     </p>
@@ -54,7 +54,7 @@
                         </pre>
                     </p>
                 </div>
-                <div class="job" onclick="showJob(this)">
+                <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
                         „Frikom” AD Padinska Skela (Avg 2007 – Maj 2011) <span class="job-desc-link">>></span>
                     </p>
@@ -64,7 +64,7 @@
                         </pre>
                     </p>
                 </div>
-                <div class="job" onclick="showJob(this)">
+                <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
                         „Rodić M&B Invest” doo Novi Sad (Jun 2006 – Avg 2007) <span class="job-desc-link">>></span>
                     </p>
@@ -74,7 +74,7 @@
                         </pre>
                     </p>
                 </div>
-                <div class="job" onclick="showJob(this)">
+                <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
                         „Rodić M&B-CO” doo Kula (Dec 2005 – Jun 2006) <span class="job-desc-link">>></span>
                     </p>
@@ -110,10 +110,36 @@
                 });
 
             x.style.display = (x.style.display == "block") ? "none" : "block";
-            }
+        },
+        jobLinkWeight: function (linkElement) {
+
+            var x = linkElement.querySelector('.job-desc-link');
+            var nodes = document.getElementsByClassName('job-desc-link');
+
+            nodes.forEach(function (node) {
+                if (node !== x && node.nodeType == Node.ELEMENT_NODE) {
+                    node.style.fontWeight = "normal";
+                    node.style.color = "#41b883";
+                    node.style.letterSpacing  = "-5px";
+                }
+            });
+
+            x.style.fontWeight = "bold";
+            x.style.color = "green";
+            x.style.letterSpacing = "-4px";
+        },
+        jobLinkNormal: function (linkElement) {
+            console.log("OnMouseOut jobLinkNormal: " + linkElement);
+            var x = linkElement.querySelector('.job-desc-link');
+            x.style.fontWeight = "normal";
+            x.style.color = "#41b883";
+            x.style.letterSpacing = "-5px";
+        }
         },
         created() {
             window.showJob = this.showJob;
+            window.jobLinkWeight = this.jobLinkWeight;
+            window.jobLinkNormal = this.jobLinkNormal;
         },
     }
 </script>
@@ -122,5 +148,6 @@
 <style>
     .job-desc-link {
         color: rgb(65, 184, 131);
+        letter-spacing: -5px;
     }
 </style>
