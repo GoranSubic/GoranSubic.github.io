@@ -8,14 +8,16 @@
     </div>-->
                 <div class="job" onclick="showJob(this)">
                     <p class="job-title">
-                        Faculty of Law, Novi Sad (Feb 2018 – Feb 2020)
+                        Faculty of Law, Novi Sad (Feb 2018 – Feb 2020) <span class="job-desc-link">>></span>
                     </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
-    - Windows servers – Windows domain (domain controller with associated services), Windows Exchange
+    - Windows servers – Windows domain (domain controller with associated services),
+      Windows Exchange
     - Linux servers – Ubuntu (web server with websites – Drupal, Joomla, Wordpress)
     - VMware (ESXi), Hyper-V
-    - Creation and maintenance of website through CMS, updating the content of the faculty website
+    - Creation and maintenance of website through CMS, updating the content of the 
+      faculty website
     - Imlementing antivirus protection (KAV)
     - Network equipment, printers
     - Clients computers, sound systems, projectors
@@ -25,7 +27,7 @@
                 </div>
                 <div class="job" onclick="showJob(this)">
                     <p class="job-title">
-                        „CloudTech“ - PHP Developer (Dec 2015 – Feb 2018).
+                        „CloudTech“ - PHP Developer (Dec 2015 – Feb 2018) <span class="job-desc-link">>></span>
                     </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
@@ -40,7 +42,7 @@
                 </div>
                 <div class="job" onclick="showJob(this)">
                     <p class="job-title">
-                        „BB Trade“ AD (Jun 2011 – Maj 2015)
+                        „BB Trade“ AD (Jun 2011 – Maj 2015) <span class="job-desc-link">>></span>
                     </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
@@ -54,7 +56,7 @@
                 </div>
                 <div class="job" onclick="showJob(this)">
                     <p class="job-title">
-                        „Frikom” AD Padinska Skela (Avg 2007 – Maj 2011)
+                        „Frikom” AD Padinska Skela (Avg 2007 – Maj 2011) <span class="job-desc-link">>></span>
                     </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
@@ -64,7 +66,7 @@
                 </div>
                 <div class="job" onclick="showJob(this)">
                     <p class="job-title">
-                        „Rodić M&B Invest” doo Novi Sad (Jun 2006 – Avg 2007)
+                        „Rodić M&B Invest” doo Novi Sad (Jun 2006 – Avg 2007) <span class="job-desc-link">>></span>
                     </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
@@ -74,7 +76,7 @@
                 </div>
                 <div class="job" onclick="showJob(this)">
                     <p class="job-title">
-                        „Rodić M&B-CO” doo Kula (Dec 2005 – Jun 2006)
+                        „Rodić M&B-CO” doo Kula (Dec 2005 – Jun 2006) <span class="job-desc-link">>></span>
                     </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
@@ -118,4 +120,7 @@
 
 
 <style>
+    .job-desc-link {
+        color: rgb(65, 184, 131);
+    }
 </style>

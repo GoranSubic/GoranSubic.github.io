@@ -50,12 +50,6 @@
                         <span class="tooltiptext">Smart DOO - Letter of Recommendation</span>
                     </a>
 
-                    <a class="tooltip" href="https://goransubic.github.io/MemoryGame-Vue.js/" target="_blank">
-                        <span style="font-size: 3em;color: rgb(65, 184, 131);">
-                            <i class="fab fa-vuejs"></i>
-                        </span>
-                        <span class="tooltiptext">Vue.js example - MemoryGame</span>
-                    </a>
                 </div>
             </div>
             <hr class="m-0">

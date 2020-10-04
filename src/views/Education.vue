@@ -22,6 +22,13 @@
                         <li>
                             After passing preliminary exam (C/C++), accepted for the training at the Company PanonIT (Mar 2020)
                         </li>
+                        <li>
+                            <a href="https://github.com/GoranSubic/CembCpp" target="_blank">
+                                <span style="font-size: 1em; color: grey;">
+                                    <i class="fab fa-github"></i>
+                                </span>CembCpp</a>
+                            - here You can find example projects that I created in C, C++, embedded C
+                        </li>
                     </ul>
                 </p>
                 <p class="">
@@ -31,7 +38,26 @@
                             Through the creation of WEB aplication for the manipulation with the data related to the selling in retail objects;
                         </li>
                         <li>
-                            Creating of a project – final work after a course PHP&My SQL (CSS, HTML, JavaScript, jQuery, Ajax). This work can be downloaded from https://github.com/GoranSubic/smart-restoran (Nov 2015)
+                            Creating of a project – final work after a course PHP&My SQL (CSS, HTML, JavaScript, jQuery, Ajax).
+                            This work can be downloaded from
+                            <a href="https://github.com/GoranSubic/smart-restoran" target="_blank">
+                                <span style="font-size: 1em; color: grey;">
+                                    <i class="fab fa-github"></i>
+                                </span>GitHub
+                            </a> (Nov 2015)
+                        </li>
+                    </ul>
+                </p>
+                <p class="">
+                    <ul>
+                        <li>
+                            Vue.js - this portfolio and
+                            <a class="tooltip" href="https://goransubic.github.io/MemoryGame-Vue.js/" target="_blank">
+                                <span style="font-size: 1em;color: rgb(65, 184, 131);">
+                                    <i class="fab fa-vuejs"></i>
+                                    <span class="tooltiptext">Vue.js example - MemoryGame</span>
+                                </span>MemoryGame
+                            </a>
                         </li>
                     </ul>
                 </p>
@@ -42,7 +68,13 @@
                     Symfony
                     <ul>
                         <li>
-                            Create crawler application (Symfony DomCrawler) which reads data from web site and shows that data on local servers page. This work can be downloaded from https://github.com/GoranSubic/sitedata (Dec 2015)
+                            Create crawler application (Symfony DomCrawler) which reads data from web site and shows that data on local servers page.
+                            This work can be downloaded from
+                            <a href="https://github.com/GoranSubic/sitedata" target="_blank">
+                                <span style="font-size: 1em; color: grey;">
+                                    <i class="fab fa-github"></i>
+                                </span>GitHub
+                            </a> (Dec 2015)
                         </li>
                     </ul>
                 </p>
