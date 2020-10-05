@@ -213,7 +213,7 @@
         float: left;
     }
 
-    .subheading .mail {
+    .subheading .mail, .subheading-education {
         font-size: 24px;
         font-weight: 500;
     }

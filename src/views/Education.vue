@@ -4,7 +4,7 @@
             <div class="resume-section-content">
                 <h2>My <span class="mail">Education</span></h2>
                 <div class="subheading">
-                    <span>Formal education</span>
+                    <span class="subheading-education">Formal education</span>
                 </div>
                 <p class="">
                     From 1995 to 1999, The High School of Electrical Engineering. The title of electrical drives
@@ -14,7 +14,7 @@
                 </p>
 
                 <div class="subheading">
-                    <span>Independent work and personal improvement</span>
+                    <span class="subheading-education">Independent work and personal improvement</span>
                 </div>
                 <p class="">
                     C/C++
