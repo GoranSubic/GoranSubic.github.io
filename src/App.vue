@@ -192,38 +192,63 @@
 
     .subheading {
         margin-bottom: 3rem !important;
-        margin-top: 20px;
+        margin-top: 3rem !important;
         box-sizing: border-box;
         color: rgb(108, 117, 125);
         display: inline;
         font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        font-size: 24px;
-        font-weight: 500;
         height: auto;
         line-height: 36px;
-        margin-bottom: 48px;
         text-align: left;
         text-size-adjust: 100%;
-        text-transform: uppercase;
-        width: auto;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
-    }
-
-    span.mail, span.mail > a {
-        background-color: rgba(0, 0, 0, 0);
-        box-sizing: border-box;
-        color: rgb(65, 184, 131);
-        opacity: 0.75;
-        display: inline;
-        font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        font-weight: 500;
-        height: auto;
-        text-align: left;
-        text-decoration-line: none;
-        text-decoration-style: solid;
-        text-size-adjust: 100%;
-        text-transform: none;
         width: auto;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        width: 100%;
     }
+
+    .subheading-info {
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        float: left;
+    }
+
+    .subheading .mail {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .subheading-roles {
+        font-size: 17px;
+        font-weight: 500;
+        float: left;
+    }
+
+    div.about-welcome {
+        float: left;
+        width: 100%;
+        margin: 1rem 0 1rem 0;
+    }
+
+    div.about-welcome p {
+        margin: 0;
+    }
+
+        span.mail, span.mail > a {
+            background-color: rgba(0, 0, 0, 0);
+            box-sizing: border-box;
+            color: rgb(65, 184, 131);
+            opacity: 0.75;
+            display: inline;
+            font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-weight: 500;
+            height: auto;
+            text-align: left;
+            text-decoration-line: none;
+            text-decoration-style: solid;
+            text-size-adjust: 100%;
+            text-transform: none;
+            width: auto;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
 </style>

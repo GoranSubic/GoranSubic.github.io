@@ -8,12 +8,14 @@
                     <span class="text-primary">Subić</span>
                 </h1>
                 <div class="subheading">
-                    <span>Serbia · Vojvodina · Novi Sad ·</span> <span class="mail"><a href="mailto: gsubic@gmail.com">gsubic@gmail.com</a></span>
+                    <span class="subheading-info">Serbia · Vojvodina · Novi Sad · </span> <span class="mail"><a href="mailto: gsubic@gmail.com">gsubic@gmail.com</a></span>
+                    <span class="subheading-roles">#helpDesk · #systemAdministration · #itManagement · #webDevelopment</span>
                 </div>
 
-
-                <p>Welcome to my personal site. </p>
-                <p>Here You can find some of the things that I have been working on.</p>
+                <div class="about-welcome">
+                    <p>Welcome to my personal site. </p>
+                    <p>Here You can find some of the things that I have been working on.</p>
+                </div>
                 <div class="social-icons">
                     <a class="tooltip" href="https://www.linkedin.com/in/goran-subic" target="_blank">
                         <span style="font-size: 3em; color: royalblue;">
@@ -93,6 +95,11 @@ export default {
             color: rgb(65, 184, 131);
             opacity: 0.75;
         }
+
+    .social-icons {
+        float: left;
+        width: 100%;
+    }
 
     .social-icons > a {
         margin: 5px;
