@@ -26,7 +26,8 @@
                             <a href="https://github.com/GoranSubic/CembCpp" target="_blank">
                                 <span style="font-size: 1em; color: grey;">
                                     <i class="fab fa-github"></i>
-                                </span>CembCpp</a>
+                                </span> CembCpp
+                            </a>
                             - here You can find example projects that I created in C, C++, embedded C
                         </li>
                     </ul>
@@ -43,12 +44,13 @@
                             <a href="https://github.com/GoranSubic/smart-restoran" target="_blank">
                                 <span style="font-size: 1em; color: grey;">
                                     <i class="fab fa-github"></i>
-                                </span>GitHub
+                                </span> GitHub
                             </a> (Nov 2015)
                         </li>
                     </ul>
                 </p>
                 <p class="">
+                    Internet site developement
                     <ul>
                         <li>
                             Vue.js - this portfolio and
@@ -56,13 +58,24 @@
                                 <span style="font-size: 1em;color: rgb(65, 184, 131);">
                                     <i class="fab fa-vuejs"></i>
                                     <span class="tooltiptext">Vue.js example - MemoryGame</span>
-                                </span>MemoryGame
+                                </span> MemoryGame
                             </a>
                         </li>
+                        <li>
+                            Drupal CMS - International Scientific Conference 2019 
+                            <a href="https://github.com/GoranSubic/conference" target="_blank">
+                                <span style="font-size: 1em; color: grey;">
+                                    <i class="fab fa-github"></i>
+                                </span> Conference Website
+                            </a>
+                        </li>
+                        <li>
+                            Joomla CMS
+                        </li>
+                        <li>
+                            Wordpress CMS
+                        </li>
                     </ul>
-                </p>
-                <p class="">
-                    Drupal, Joomla, Wordpress CMS - internet site developement.
                 </p>
                 <p class="">
                     Symfony
@@ -73,7 +86,7 @@
                             <a href="https://github.com/GoranSubic/sitedata" target="_blank">
                                 <span style="font-size: 1em; color: grey;">
                                     <i class="fab fa-github"></i>
-                                </span>GitHub
+                                </span> GitHub
                             </a> (Dec 2015)
                         </li>
                     </ul>
@@ -95,4 +108,8 @@ export default {
 
 
 <style>
+    .resume-section-content li a {
+        text-decoration: none;
+        color: rgb(65, 184, 131);
+    }
 </style>
