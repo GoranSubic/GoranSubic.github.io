@@ -33,7 +33,7 @@
                         <pre>
     - Work on maintaining of project - web site which beside presentation has online sale 
       and admin, based on Zend 1 framework and Backbone javascript framework.
-    - Work project based on Symfony framework <a target="_blank" href="https://www.alexandar-cosmetics.com/"><img src="../assets/acfavicon.png" />Alexandar Cosmetics</a>.
+    - Work project based on Symfony framework <a target="_blank" href="https://www.alexandar-cosmetics.com/"><img src="../assets/acfavicon.png" /> Alexandar Cosmetics</a>.
     - Through so far, my working experience was gained and expanded in working with Zend 
       and Symfony framework, Backbone framework, Twig templates, MySql Workbench, 
       Apache and Nginx web servers, Vagrant, Git (command line, SmartGit), Redmine.

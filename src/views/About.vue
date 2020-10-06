@@ -8,7 +8,7 @@
                     <span class="text-primary">Subić</span>
                 </h1>
                 <div class="subheading">
-                    <span class="subheading-info">Serbia · Vojvodina · Novi Sad · </span> <span class="mail"><a href="mailto: gsubic@gmail.com">gsubic@gmail.com</a></span>
+                    <span class="subheading-info">Serbia · Vojvodina · Novi Sad · </span> <span class="mail"> <a href="mailto:gsubic@gmail.com"> gsubic@gmail.com</a></span>
                     <span class="subheading-roles">#helpDesk · #systemAdministration · #itManagement · #webDevelopment</span>
                 </div>
 
