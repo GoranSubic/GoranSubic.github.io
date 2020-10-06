@@ -32,7 +32,7 @@
             SideNav,
             About,
             Education,
-            Experience
+            Experience,
         }
     }
 </script>
@@ -60,14 +60,12 @@
 
     #app {
         padding-left: 17rem;
-        /*padding: 20px;*/
         width: 100%;
         font-family: Avenir, Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: #2c3e50;
-        /*margin: 60px;*/
     }
 
     #main {
@@ -75,7 +73,6 @@
         float: left;
         padding: 20px;
         width: 70%;
-        /*margin-left: 200px;*/
     }
 
     /* The side navigation menu */
@@ -122,6 +119,23 @@
             width: 70%;
             height: auto;
         }
+
+        #mysidenav #social-data {
+            display: none;
+        }
+
+        #about-data #social-data {
+            display: block;
+        }
+
+        #about-data .social-icons {
+            float: left;
+            width: 100%;
+        }
+
+        #about-data .social-icons > a {
+            margin: 5px;
+        }
     }
 
     h2 {
@@ -152,13 +166,8 @@
         padding-bottom: 5rem;
         max-width: 75rem;
         min-height: 70vh;
-        /*min-height: 75rem;*/
         width: 100%;
     }
-
-    /*.resume-section {
-        min-height: 550px;
-    }*/
 
     @media (min-width: 992px) {
         section.resume-section {
@@ -218,7 +227,7 @@
         font-weight: 500;
     }
 
-    .subheading-roles {
+    .subheading-roles, .job-name-link {
         font-size: 17px;
         font-weight: 500;
         float: left;

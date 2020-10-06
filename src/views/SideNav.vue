@@ -3,16 +3,25 @@
         <div id="my-img">
             <img class="my-img" alt="My image" src="../assets/GoranSubic.png">
         </div>
+
+        <div id="social-data">
+            <Social msgSocial="Social and profile documents on 'desktop' screens" />
+        </div>
     </aside>
 </template>
 
 <script>
-export default {
-  name: 'SideNav',
-  props: {
-      msgSideNav: String
-  }
-}
+    import Social from './Social.vue'
+
+    export default {
+        name: 'SideNav',
+        props: {
+            msgSideNav: String
+        },
+        components: {
+            Social,
+        }
+    }
 </script>
 
 <style>
@@ -23,5 +32,23 @@ export default {
         display: block;
         margin: 0 auto;
         border-radius: 25%;
+    }
+
+    #about-data #social-data {
+        display: none;
+    }
+
+    #mysidenav #social-data {
+        display: block;
+        margin-top: 3rem;
+    }
+
+    #mysidenav .social-icons {
+        float: left;
+        width: 100%;
+    }
+
+    #mysidenav .social-icons > a {
+        margin: 5px;
     }
 </style>

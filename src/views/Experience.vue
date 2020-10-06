@@ -27,7 +27,7 @@
                 </div>
                 <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
-                        <span class="job-name-link">Web Developer</span> „CloudTech“ - PHP Developer (Dec 2015 – Feb 2018) <span class="job-desc-link">>></span>
+                        <span class="job-name-link">Web Developer</span>: „CloudTech“ - PHP Developer (Dec 2015 – Feb 2018) <span class="job-desc-link">>></span>
 </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
-                        <span class="job-name-link">IT Manager</span> „BB Trade“ AD (Jun 2011 – Maj 2015) <span class="job-desc-link">>></span>
+                        <span class="job-name-link">IT Manager</span>: „BB Trade“ AD (Jun 2011 – Maj 2015) <span class="job-desc-link">>></span>
 </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
-                        <span class="job-name-link">System Administrator</span> „Frikom” AD Padinska Skela (Avg 2007 – Maj 2011) <span class="job-desc-link">>></span>
+                        <span class="job-name-link">System Administrator</span>: „Frikom” AD Padinska Skela (Avg 2007 – Maj 2011) <span class="job-desc-link">>></span>
 </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
-                        <span class="job-name-link">Help Desk</span> „Rodić M&B Invest” doo Novi Sad (Jun 2006 – Avg 2007) <span class="job-desc-link">>></span>
+                        <span class="job-name-link">Help Desk</span>: „Rodić M&B Invest” doo Novi Sad (Jun 2006 – Avg 2007) <span class="job-desc-link">>></span>
 </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
-                        <span class="job-name-link">Help Desk</span> „Rodić M&B-CO” doo Kula (Dec 2005 – Jun 2006) <span class="job-desc-link">>></span>
+                        <span class="job-name-link">Help Desk</span>: „Rodić M&B-CO” doo Kula (Dec 2005 – Jun 2006) <span class="job-desc-link">>></span>
 </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
