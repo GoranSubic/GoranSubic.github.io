@@ -222,9 +222,33 @@
         float: left;
     }
 
-    .subheading .mail, .subheading-education {
+    .subheading-education {
         font-size: 24px;
         font-weight: 500;
+    }
+
+    .subheading .mail > a {
+        padding-left: 5px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    span.mail, span.mail > a {
+        background-color: rgba(0, 0, 0, 0);
+        box-sizing: border-box;
+        color: rgb(65, 184, 131);
+        opacity: 0.75;
+        display: inline;
+        font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-weight: 500;
+        height: auto;
+        text-align: left;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+        text-size-adjust: 100%;
+        text-transform: none;
+        width: auto;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
     .subheading-roles, .job-name-link {
@@ -242,22 +266,4 @@
     div.about-welcome p {
         margin: 0;
     }
-
-        span.mail, span.mail > a {
-            background-color: rgba(0, 0, 0, 0);
-            box-sizing: border-box;
-            color: rgb(65, 184, 131);
-            opacity: 0.75;
-            display: inline;
-            font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-            font-weight: 500;
-            height: auto;
-            text-align: left;
-            text-decoration-line: none;
-            text-decoration-style: solid;
-            text-size-adjust: 100%;
-            text-transform: none;
-            width: auto;
-            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        }
 </style>
