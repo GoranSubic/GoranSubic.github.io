@@ -16,7 +16,8 @@
       Windows Exchange
     - Linux servers – Ubuntu (web server with websites – Drupal, Joomla, Wordpress)
     - VMware (ESXi), Hyper-V
-    - Creation and maintenance of website through CMS (Drupal CMS <a href="https://github.com/GoranSubic/conference" target="_blank"><span style="font-size: 1em; color: grey;"><i class="fab fa-github"></i></span> Conference Website</a>), 
+    - Migration of the website from external hosting to the faculty server, creation 
+      and maintenance of website through CMS (Drupal CMS <a href="https://github.com/GoranSubic/conference" target="_blank"><span style="font-size: 1em; color: grey;"><i class="fab fa-github"></i></span> Conference Website</a>), 
       updating the content of the faculty website
     - Imlementing antivirus protection (KAV)
     - Network equipment, printers
