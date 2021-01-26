@@ -8,6 +8,18 @@
     </div>-->
                 <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
+                        <span class="job-name-link">Work In Progress</span>: Web Development <span class="job-desc-link">>></span>
+                    </p>
+                    <p class="job-desc" style="display: none;">
+                        <pre>
+    - Web application project based on Symfony + Vue - <a target="_blank" href="https://olala.co.rs/"><img src="../assets/olala.svg" /> Olala Fast Food </a>
+      Web application with orders and order tracking system
+    - Web application project based on Vue - <a target="_blank" href="https://kolmarvine.rs/"><img src="../assets/kolmarvine.svg" /> KolmarVine Lift Servis </a>
+</pre>
+                    </p>
+                </div>
+                <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
+                    <p class="job-title">
                         <span class="job-name-link">IT Manager - System Administrator</span>: Faculty of Law, Novi Sad (Feb 2018 – Feb 2020) <span class="job-desc-link">>></span>
                     </p>
                     <p class="job-desc" style="display: none;">
@@ -150,6 +162,10 @@
 
 
 <style>
+    a img {
+        height: 1em;
+    }
+
     .job-desc-link {
         color: rgb(65, 184, 131);
         letter-spacing: -5px;
