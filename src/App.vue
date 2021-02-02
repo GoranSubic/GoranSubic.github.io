@@ -73,6 +73,7 @@
         float: left;
         padding: 20px;
         width: 70%;
+        min-height: 100vh;
     }
 
     /* The side navigation menu */
@@ -89,6 +90,10 @@
         overflow-x: hidden; /* Disable horizontal scroll */
         overflow-y: hidden; /* Disable vertical scroll */
         padding: 100px 10px 100px 10px;
+    }
+
+    h1, h2 {
+        margin-top: 80px !important;
     }
 
     /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */

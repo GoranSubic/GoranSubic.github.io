@@ -12,9 +12,9 @@
                     </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
-    - Web application project based on Symfony + Vue - <a target="_blank" href="https://olala.co.rs/"><img src="../assets/olala.svg" /> Olala Fast Food </a>
-      Web application with orders and order tracking system
-    - Web application project based on Vue - <a target="_blank" href="https://kolmarvine.rs/"><img src="../assets/kolmarvine.svg" /> KolmarVine Lift Servis </a>
+    - Web application project based on Symfony + Vue - <a target="_blank" href="https://olala.co.rs/"><img src="../assets/olala.svg" /> Olala Fast Food</a>.
+      Web application with orders and order tracking system.
+    - Web application project based on Vue - <a target="_blank" href="https://kolmarvine.rs/"><img src="../assets/kolmarvine.svg" /> KolmarVine Lift Servis</a>.
 </pre>
                     </p>
                 </div>
@@ -25,16 +25,16 @@
                     <p class="job-desc" style="display: none;">
                         <pre>
     - Windows servers – Windows domain (domain controller with associated services),
-      Windows Exchange
-    - Linux servers – Ubuntu (web server with websites – Drupal, Joomla, Wordpress)
-    - VMware (ESXi), Hyper-V
+      Windows Exchange.
+    - Linux servers – Ubuntu (web server with websites – Drupal, Joomla, Wordpress).
+    - VMware (ESXi), Hyper-V.
     - Migration of the website from external hosting to the faculty server, creation 
       and maintenance of website through CMS (Drupal CMS <a href="https://github.com/GoranSubic/conference" target="_blank"><span style="font-size: 1em; color: grey;"><i class="fab fa-github"></i></span> Conference Website</a>), 
-      updating the content of the faculty website
-    - Imlementing antivirus protection (KAV)
-    - Network equipment, printers
-    - Clients computers, sound systems, projectors
-    - Help desk
+      updating the content of the faculty website.
+    - Imlementing antivirus protection (KAV).
+    - Network equipment, printers.
+    - Clients computers, sound systems, projectors.
+    - Help desk.
                         </pre>
                     </p>
                 </div>
