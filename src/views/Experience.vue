@@ -12,10 +12,22 @@
                     </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
-    - Web application project based on Symfony + Vue - <a target="_blank" href="https://olala.co.rs/"><img src="../assets/olala.svg" /> Olala Fast Food</a>.
-      Web application with orders and order tracking system.
+    - Web application with orders and order tracking system:
+        * Web application project based on Symfony + Vue - <a target="_blank" href="https://alternativa8.rs/"><img src="../assets/alternativa8.png" /> Alternativa8</a>.
+        * Web application project based on Symfony + Vue - <a target="_blank" href="https://olala.brzodo.rs/"><img src="../assets/olala.svg" /> Olala Fast Food</a>.
     - Web application project based on Vue - <a target="_blank" href="https://kolmarvine.rs/"><img src="../assets/kolmarvine.svg" /> KolmarVine Lift Servis</a>.
 </pre>
+                    </p>
+                </div>
+                <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
+                    <p class="job-title">
+                        <span class="job-name-link">Web Developer</span>: „Fermicoding“ - Drupal Developer (Apr 2021) <span class="job-desc-link">>></span>
+                    </p>
+                    <p class="job-desc" style="display: none;">
+                        <pre>
+    - Work on maintaining of project - website which beside presentation has online sale 
+      and admin, based on Drupal 8  <a target="_blank" href="https://regarden.com/"><img class="regarden-bck" src="../assets/regarden.svg" /> ReGarden</a>.
+                        </pre>
                     </p>
                 </div>
                 <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
@@ -41,7 +53,7 @@
                 <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
                         <span class="job-name-link">Web Developer</span>: „CloudTech“ - PHP Developer (Dec 2015 – Feb 2018) <span class="job-desc-link">>></span>
-</p>
+                    </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
     - Work on maintaining of project - web site which beside presentation has online sale 
@@ -56,7 +68,7 @@
                 <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
                         <span class="job-name-link">IT Manager</span>: „BB Trade“ AD (Jun 2011 – Maj 2015) <span class="job-desc-link">>></span>
-</p>
+                    </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
     - Service of IT Sector, working place „IT Manager“. 
@@ -70,7 +82,7 @@
                 <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
                         <span class="job-name-link">System Administrator</span>: „Frikom” AD Padinska Skela (Avg 2007 – Maj 2011) <span class="job-desc-link">>></span>
-</p>
+                    </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
     - Service of IT, working place „Sistem administrator“.
@@ -80,7 +92,7 @@
                 <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
                         <span class="job-name-link">Help Desk</span>: „Rodić M&B Invest” doo Novi Sad (Jun 2006 – Avg 2007) <span class="job-desc-link">>></span>
-</p>
+                    </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
     - Within the IT sector jobs Help Desk and System Administrator jobs.
@@ -90,7 +102,7 @@
                 <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
                         <span class="job-name-link">Help Desk</span>: „Rodić M&B-CO” doo Kula (Dec 2005 – Jun 2006) <span class="job-desc-link">>></span>
-</p>
+                    </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
     - Customer service Help Desk in the IT sector. 
@@ -162,6 +174,10 @@
 
 
 <style>
+    p.job-title {
+        cursor: pointer;
+    }
+
     a img {
         height: 1em;
     }
@@ -178,5 +194,10 @@
     .job-desc a {
         text-decoration: none;
         color: rgb(65, 184, 131);
+    }
+
+    .regarden-bck {
+        background-color: #1b5e20;
+        padding: 3px;
     }
 </style>
