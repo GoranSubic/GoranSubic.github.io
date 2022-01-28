@@ -12,7 +12,7 @@
                     </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
-    - Web application with orders and order tracking system:
+    - Web application with orders and order tracking system (<a href="https://github.com/GoranSubic/syminorder" target="_blank"><span style="font-size: 1em; color: grey;"><i class="fab fa-github"></i></span> GitHub repo</a>):
         * Web application project based on Symfony + Vue - <a target="_blank" href="https://alternativa8.rs/"><img src="../assets/alternativa8.png" /> Alternativa8</a>.
         * Web application project based on Symfony + Vue - <a target="_blank" href="https://olala.brzodo.rs/"><img src="../assets/olala.svg" /> Olala Fast Food</a>.
     - Web application project based on Vue - <a target="_blank" href="https://kolmarvine.rs/"><img src="../assets/kolmarvine.svg" /> KolmarVine Lift Servis</a>.
