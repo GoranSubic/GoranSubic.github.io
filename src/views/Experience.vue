@@ -21,6 +21,18 @@
                 </div>
                 <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
                     <p class="job-title">
+                        <span class="job-name-link">Drupal Development</span>: „Pronovix“ - Part Time Job (Apr 2021) <span class="job-desc-link">>></span>
+                    </p>
+                    <p class="job-desc" style="display: none;">
+                        <pre>
+    - Selection process (Apr 2021)
+    - Contractor setup (Jun 2021 - Oct 2021) - Onboarding, learning Drupal and working on real project - <a href="https://github.com/GoranSubic/beta-goran-subic" target="_blank"><span style="font-size: 1em; color: grey;"><i class="fab fa-github"></i></span> Pronovix - forked project.</a>
+    - Contract of Services - part time job from Nov 2021.
+                        </pre>
+                    </p>
+                </div>
+                <div class="job" onclick="showJob(this)" onmouseover="jobLinkWeight(this)" onmouseout="jobLinkNormal(this)">
+                    <p class="job-title">
                         <span class="job-name-link">Web Developer</span>: „Fermicoding“ - Drupal Developer (Apr 2021) <span class="job-desc-link">>></span>
                     </p>
                     <p class="job-desc" style="display: none;">
