@@ -26,8 +26,11 @@
                     <p class="job-desc" style="display: none;">
                         <pre>
     - Selection process (Apr 2021)
-    - Contractor setup (Jun 2021 - Oct 2021) - Onboarding, learning Drupal and working on real project - <a href="https://github.com/GoranSubic/beta-goran-subic" target="_blank"><span style="font-size: 1em; color: grey;"><i class="fab fa-github"></i></span> Pronovix - forked project.</a>
-    - Contract of Services - part time job from Nov 2021.
+    - Contractor setup (Jun 2021 - Oct 2021) - Onboarding, learning Drupal and working on 
+      practical examples - <a href="https://github.com/GoranSubic/beta-goran-subic" target="_blank"><span style="font-size: 1em; color: grey;"><i class="fab fa-github"></i></span> Pronovix - forked project.</a>
+    - Contract of Services - part time job (Nov 2021) - work on projects based on Pronovix’s 
+      product created with Drupal (Web portal that provides structured documentation to 
+      productize client APIs. It provides a searchable catalog of client API products).
                         </pre>
                     </p>
                 </div>
@@ -37,8 +40,8 @@
                     </p>
                     <p class="job-desc" style="display: none;">
                         <pre>
-    - Work on maintaining of project - website which beside presentation has online sale 
-      and admin, based on Drupal 8  <a target="_blank" href="https://regarden.com/"><img class="regarden-bck" src="../assets/regarden.svg" /> ReGarden</a>.
+    - Work on maintaining of project - website which besides presentation has online sale 
+      and admin, based on Drupal 8 - <a target="_blank" href="https://regarden.com/"><img class="regarden-bck" src="../assets/regarden.svg" /> ReGarden</a>.
                         </pre>
                     </p>
                 </div>
