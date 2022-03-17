@@ -17,18 +17,49 @@
                     <span class="subheading-education">Independent work and personal improvement</span>
                 </div>
                 <p class="">
-                    C/C++
+                    Symfony
                     <ul>
                         <li>
-                            After passing preliminary exam (C/C++), accepted for the training at the Company PanonIT (Mar 2020)
-                        </li>
-                        <li>
-                            <a href="https://github.com/GoranSubic/CembCpp" target="_blank">
+                            Word Game - Symfony project implemented Domain Driven Design.
+                            This work can be downloaded from
+                            <a href="https://github.com/GoranSubic/wordgame" target="_blank">
                                 <span style="font-size: 1em; color: grey;">
                                     <i class="fab fa-github"></i>
-                                </span> CembCpp
-                            </a>
-                            - here You can find example projects that I created in C, C++, embedded C
+                                </span> GitHub
+                            </a> (Mar 2022)
+                        </li>
+                    </ul>
+                </p>
+                <p class="">
+                    Internet site developement
+                    <ul>
+                        <li>
+                            Vue.js - this portfolio
+                        </li>
+                        <li>
+                            Drupal CMS 
+                            <div>
+                                - International Scientific Conference 2019
+                                <a href="https://github.com/GoranSubic/conference" target="_blank">
+                                    <span style="font-size: 1em; color: grey;">
+                                        <i class="fab fa-github"></i>
+                                    </span> Conference Website
+                                </a>
+                            </div>
+                            <div>
+                                - Stone carving shop presentation
+                                <a href="https://github.com/GoranSubic/kamenorezacgolic" target="_blank">
+                                    <span style="font-size: 1em; color: grey;">
+                                        <i class="fab fa-github"></i>
+                                    </span> Kamenorezac Golić
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            Joomla CMS
+                        </li>
+                        <li>
+                            Wordpress CMS
                         </li>
                     </ul>
                 </p>
@@ -50,44 +81,18 @@
                     </ul>
                 </p>
                 <p class="">
-                    Internet site developement
+                    C/C++
                     <ul>
                         <li>
-                            Vue.js - this portfolio and
-                            <a class="tooltip" href="https://goransubic.github.io/MemoryGame-Vue.js/" target="_blank">
-                                <span style="font-size: 1em;color: rgb(65, 184, 131);">
-                                    <i class="fab fa-vuejs"></i>
-                                    <span class="tooltiptext">Vue.js example - MemoryGame</span>
-                                </span> MemoryGame
-                            </a>
+                            After passing preliminary exam (C/C++), accepted for the training at the Company PanonIT (Mar 2020)
                         </li>
                         <li>
-                            Drupal CMS - International Scientific Conference 2019 
-                            <a href="https://github.com/GoranSubic/conference" target="_blank">
+                            <a href="https://github.com/GoranSubic/CembCpp" target="_blank">
                                 <span style="font-size: 1em; color: grey;">
                                     <i class="fab fa-github"></i>
-                                </span> Conference Website
+                                </span> CembCpp
                             </a>
-                        </li>
-                        <li>
-                            Joomla CMS
-                        </li>
-                        <li>
-                            Wordpress CMS
-                        </li>
-                    </ul>
-                </p>
-                <p class="">
-                    Symfony
-                    <ul>
-                        <li>
-                            Create crawler application (Symfony DomCrawler) which reads data from web site and shows that data on local servers page.
-                            This work can be downloaded from
-                            <a href="https://github.com/GoranSubic/sitedata" target="_blank">
-                                <span style="font-size: 1em; color: grey;">
-                                    <i class="fab fa-github"></i>
-                                </span> GitHub
-                            </a> (Dec 2015)
+                            - here You can find example projects that I created in C, C++, embedded C
                         </li>
                     </ul>
                 </p>
